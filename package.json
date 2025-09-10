@@ -1,3 +1,13 @@
+"homepage":"https://kaua-stack.github.io/ladinpagePet",
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
 {
   "name": "petdev",
   "version": "0.1.0",
@@ -9,16 +19,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "15.3.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.4"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
