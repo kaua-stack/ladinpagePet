@@ -1,22 +1,15 @@
-"homepage":"https://kaua-stack.github.io/ladinpagePet",
-"scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-
 {
   "name": "petdev",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kaua-stack.github.io/ladinpagePet",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "next": "15.3.4",
